@@ -1,0 +1,23 @@
+//GENERAL DEPENDENCIES================================
+//====================================================
+
+= javascript_include_tag  "script"
+
+//FONT APPEARANCE & FILES DEPENDENCIES================
+//====================================================
+
+// FONTS.COM ANTI FOUT BEGIN
+:javascript
+  // first, create the object that contains
+  // configuration variables
+  MTIConfig = {};
+
+  // next, add a variable that will control
+  // whether or not FOUT will be prevented
+  MTIConfig.EnableCustomFOUTHandler = true // true = prevent FOUT
+    // FONTS.COM ANTI FOUT END
+
+// FONTS.COM WEBFONTS BEGIN
+%script{:src => "http://fast.fonts.net/jsapi/a45e6479-3853-4a89-a13c-63e2e48864ec.js", :type => "text/javascript"}
+/ FONTS.COM WEBFONTS END
+

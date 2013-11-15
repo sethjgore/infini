@@ -1,0 +1,43 @@
+
+@include animate--this(appear, 1s)
+@include animate--this(heart-pulse, 2s, 0, ease-in-out,infinite)
+@include animate--this(enter-left, 1s, 0s, ease-in-out)
+@include animate--this(enter-right, 1s, 0s, ease-in-out)
+
+@-webkit-keyframes appear
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
+@-webkit-keyframes heart-pulse
+  0%
+    opacity: 1
+  50%`
+    opacity: .25
+  100%
+    opacity: 1
+
+@-webkit-keyframes enter-left
+  0%
+    @include vendor(transform, translateX(-100rem))
+  100%
+    @include vendor(transform, translateX(0))
+
+@-webkit-keyframes enter-right
+  0%
+    @include vendor(transform, translateX(100rem))
+  100%
+    @include vendor(transform, translateX(0))
+
+@-webkit-keyframes shake-no
+  0%
+    @include vendor(transform, translateX(0rem))
+  25%
+    @include vendor(transform, translateX(15rem))
+  50%
+    @include vendor(transform, translateX(0rem))
+  75%
+    @include vendor(transform, translateX(5rem))
+  100%
+    @include vendor(transform, translateX(0rem))

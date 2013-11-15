@@ -1,0 +1,48 @@
+
+
+
+
+//////////////////////////////
+//# POPCORN TESTING
+
+#vimeo
+  width: 100vw
+  height: 50vw
+
+#vimeotext
+  color: red
+//////////////////////////////
+
+.animation--clear
+  position: absolute
+  :after
+    content: ""
+    display: table
+    clear: both
+
+.noun__animation--base
+  height: 14rem
+  width: 14rem
+
+.noun__animation--living
+  @extend .noun__animation--base
+
+.noun__animation--living--heart
+  height: 4rem
+  width: 4rem
+  background: image-url('lessons/heart-living.svg') no-repeat
+  background-size: contain
+  @include vendor(transform, translate(5rem, 11.5rem))
+  //@extend .animation--clear
+
+.noun__animation--nonliving
+  @extend .noun__animation--base
+
+.noun__animation--nonliving--heart
+  height: 4rem
+  width: 4rem
+  background: image-url('lessons/heart-nonliving.svg') no-repeat
+  background-size: contain
+  @include vendor(transform, translate(5rem, 11.5rem))
+  //@extend .animation--clear
+

@@ -1,0 +1,29 @@
+////////////////
+//// MIXIN animate--this
+//
+//
+// DO
+//  makes keyfram`e animations into usable classes
+//  keyframe name is appended by .animated__
+// ACCEPTS
+//  name of animation
+//  , duration of animation
+//  , duration of delay
+//  , animation type (easing, cubic-beizer, etc)
+//  , animation repated how many times (1, 2, infinite)
+//  , animation alternative name?
+//
+//
+////////////////
+
+@mixin animate--this($name, $duration: 2s, $delay: 0s, $animation-type: ease-in-out, $repeathowmany: 1, $differentname: null){
+  .animated__#{$name}{
+    @if $differentname == null{
+      $differentname: $name;
+      @include vendor(animation, $name $duration $delay $animation-type $repeathowmany);
+    } @else{
+      @include vendor(animation, $name $duration $delay $animation-type $repeathowmany);
+    }
+
+  }
+}

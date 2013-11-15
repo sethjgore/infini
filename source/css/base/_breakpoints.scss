@@ -1,0 +1,36 @@
+$bp-phoneish:        0rem;
+$bp-phabletish:      20rem;
+$bp-tabletish:       30rem;
+$bp-tabletopish:     45rem;
+$bp-laptopish:       58rem;
+$bp-cinemaish:       72rem;
+
+
+$phoneish:    "only screen and (min-width: #{$bp-phoneish})";
+$phabletish:  "only screen and (min-width: #{$bp-phabletish})";
+$tabletish:   "only screen and (min-width: #{$bp-tabletish})";
+$tabletopish: "only screen and (min-width: #{$bp-laptopish})";
+$laptopish:   "only screen and (min-width: #{$bp-tabletopish})";
+$cinemaish:   "only screen and (min-width: #{$bp-cinemaish})";
+
+
+
+$breakpoints: (
+//* NAME:         TRAFFICLIGHT:               BREAKPOINT GRID NAME
+    $phoneish     "phoneish"                  "phoneish",
+    $phabletish   "phoneish tabletish"        "phabletish",
+    $tabletish    "tabletish"                 "tabletish",      
+    $tabletopish  "tabletish laptopish"       "tabletopish",
+    $laptopish    "laptopish"                 "laptopish", 
+    $cinemaish    "cinemaish"                 "cinemaish"
+);
+
+@mixin breakpoint($point) {
+  @each $breakpoint in $breakpoints {
+    $query: nth($breakpoint, 1);
+    $name: nth($breakpoint, 3);
+    @if ($name == $point) {
+      @media #{$query} { @content }
+    }
+  }
+}

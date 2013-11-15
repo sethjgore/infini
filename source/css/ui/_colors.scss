@@ -1,0 +1,15 @@
+//TODO add automatic LIGHTEN function @each color in $colors
+//TODO allow sassscript lighten() to work within lists
+
+$colors: (
+    "color--article" "rgb(143, 207, 244)",
+    "color--adjective"  "rgb(0, 144, 215)",
+    "color--noun"  "rgb(57, 57, 57)",
+    "color--verb" "rgb(223,51,50)",
+    "color--adverb" "rgb(255,126,42)",
+    "color--pronoun" "rgb(168,93,150)",
+    "color--preposition" "rgb(0,197,79)",
+    "dark" "rgba(0,0,0,.50)",
+    "darker" "rgb(44, 44, 44)",
+    "color--yellow" "rgb(254, 173, 9)"
+);

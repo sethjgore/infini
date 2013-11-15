@@ -1,0 +1,24 @@
+$padding--regular: 2.5vw
+$padding--medium: 7.5vw
+$padding--large: 12vw
+
+section
+  padding: 0 $padding--regular
+
+  @media #{$medium}
+    padding: 0 $padding--medium
+
+  @media #{$large}
+    padding: 0 $padding--large
+
+.with__padding--top
+  padding: $padding--regular
+
+  @media #{$medium}
+    padding: $padding--medium
+
+  @media #{$large}
+    padding: $padding--large
+
+.with__padding--none
+  padding: 0

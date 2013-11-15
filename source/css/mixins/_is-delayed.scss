@@ -1,0 +1,28 @@
+////////////////
+//// MIXIN is__delayed
+//
+//
+// DO
+//  modifies animation-delay
+//  automatically higher specificity (!important)
+// ACCEPTS
+//  none
+// TODO
+//  add args (range #, i.e. 1-5)
+//  change @each to if/for/while
+//  add args (decide divider, default 10)
+//
+//
+////////////////
+@mixin is__delayed{
+  @each $second in 1,2,3,4,5,6,7,8,9{
+    .is__delayed--#{$second}{
+
+      $currentsecond : ($second / 5);
+
+      animation-delay: #{$currentsecond}s !important;
+    }
+  }
+}
+
+@include is__delayed;
