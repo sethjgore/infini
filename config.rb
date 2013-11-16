@@ -66,6 +66,8 @@ configure :build do
   activate :minify_html
   #activate :cache_buster
   #activate :asset_hash
+
+  activate :autoprefixer
 end
 
 sprockets.append_path File.join "#{root}", "bower_components"
