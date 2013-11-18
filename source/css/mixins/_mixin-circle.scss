@@ -1,0 +1,5 @@
+@mixin circle($dimensions: 3rem){
+  $doubledimensions: ($dimensions*2);
+
+  border-radius: $doubledimensions;
+}

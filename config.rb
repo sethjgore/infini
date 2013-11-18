@@ -14,7 +14,7 @@ set :markdown_engine, :redcarpet
 activate :livereload
 
 #ACTIVATE AUTOMATIC VENDOR REFIXING
-activate :autoprefixer
+#activate :autoprefixer
 
 #ACTIVATE PRETTY INDEXES
 activate :directory_indexes
