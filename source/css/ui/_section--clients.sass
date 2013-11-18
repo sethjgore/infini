@@ -35,36 +35,3 @@
   .client__#{$client}
     background: image-url('clients/#{$client}.png') no-repeat center center
     @extend .client__image
-
-.clients__container
-  border-top: 1rem double
-
-  @extend .is__background--white
-
-  &:before
-    content: "OUR CLIENTS"
-    background: rgb(255, 255, 255)
-    padding: 1.3rem 1rem
-    flex: 1
-    margin: auto
-
-  &.is__button-like
-    &:before
-      -webkit-transform: translateY(-1.5rem)
-      border-radius: .3rem
-      border: rgb(254, 173, 9) .4rem solid
-      font-size: 1.3rem
-      font-family: raleway
-      font-weight: 600
-      box-shadow: 0 .5rem rgb(158, 110, 11)
-
-  &.is__clean
-    &:before
-      -webkit-transform: translateY(-3rem)
-      border-radius: 0.3rem
-      border-right: 0.4rem solid
-      border-left: 0.4rem solid
-      @extend .is__border--dark
-      font-size: 2.5rem
-      font-family: raleway
-      font-weight: 600

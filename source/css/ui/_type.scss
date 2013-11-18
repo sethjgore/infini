@@ -33,7 +33,7 @@ html{
   font-weight: 200;
 }
 
-h1 {
+h1{
   margin: 0 0 0.5rem;
   font-size: 2.45rem;
   -webkit-font-kerning: normal;
@@ -118,23 +118,9 @@ ul, ol {
 
 blockquote{
   font-family: $type-main;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 1.61em;
+  font-size: 2rem;
   @extend .is__text--green;
-  font-size: 1.3rem;
-  padding: .5rem;
-  margin: 2rem 0rem;
-
-  @media #{$small}{
-    font-size: 1.3rem;
-  }
-
-  @media #{$medium}{
-    font-size: 2rem;
-    padding: 1rem;
-  }
-  @media #{$large}{
-    border: 2rem solid rgb(247, 247, 247);
-    margin: 3rem -2rem;
-  }
+  margin: 10vh 0rem;
 }
