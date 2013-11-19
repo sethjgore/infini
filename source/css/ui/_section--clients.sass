@@ -31,7 +31,13 @@
     filter: grayscale(0)
 
 
+
 @each $client in fedex, manhattan, liberty, building, convo
   .client__#{$client}
     background: image-url('clients/#{$client}.png') no-repeat center center
     @extend .client__image
+    &:hover
+      background: image-url('clients/#{$client}.png') no-repeat center center, #fff
+    &.hover__dark
+      &:hover
+        background: image-url('clients/#{$client}.png') no-repeat center center, rgb(61, 58, 58)
