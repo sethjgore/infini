@@ -1,0 +1,25 @@
+.section__staff
+  @extend .with__padding--top
+
+.staff__container
+  @extend .g
+  @extend .row
+  align-items: center
+  margin-bottom: 4rem
+
+.staff__item
+  @extend .small-12
+  @extend .columns
+  @extend .gc
+
+.staff__item--image
+  background: image-url('splashes/splash-1-cropped.jpg') center center no-repeat, #fff
+  @include circle()
+
+.staff__item--text
+  h3
+    @extend .is__text--bold
+    @extend .is__text--color--yellow
+  h4
+    @extend .is__text--medium
+

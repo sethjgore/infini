@@ -87,30 +87,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/user/Dropbox/Web/Clients/infini/source/js/script.js",
-			"settings":
-			{
-				"buffer_size": 129,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/user/Dropbox/Web/Clients/infini/source/css/_settings.scss",
-			"settings":
-			{
-				"buffer_size": 31350,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/user/Dropbox/Web/Clients/infini/source/css/style.sass",
-			"settings":
-			{
-				"buffer_size": 793,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -347,29 +323,37 @@
 	},
 	"file_history":
 	[
-		"/Users/user/Dropbox/Web/Clients/infini/Gemfile",
-		"/Users/user/Dropbox/Web/Clients/infini/infini.sublime-project",
-		"/Users/user/Dropbox/Web/Clients/infini/source/index.html.haml",
-		"/Users/user/Dropbox/Web/Clients/infini/source/css/ui/_type-fancyheading.sass",
-		"/Users/user/Dropbox/Web/Clients/infini/source/css/ui/_section--clients.sass",
 		"/Users/user/Dropbox/Web/Clients/infini/config.rb",
+		"/Users/user/Dropbox/Web/Clients/infini/source/index.html.haml",
+		"/Users/user/Dropbox/Web/Clients/infini/source/css/ui/_section--clients.sass",
+		"/Users/user/Dropbox/Web/Clients/infini/source/css/ui/_is.scss",
+		"/Users/user/Dropbox/Web/clients/infini/source/css/ui/_section--staff.sass",
+		"/Users/user/Dropbox/Web/Clients/infini/source/css/ui/_section--splash.sass",
+		"/Users/user/Dropbox/Web/Clients/infini/source/css/mixins/_animate-this.scss",
+		"/Users/user/Dropbox/Web/Clients/infini/source/css/mixins/_mixin-circle.scss",
 		"/Users/user/Dropbox/Web/Clients/infini/source/css/style.sass",
 		"/Users/user/Dropbox/Web/Clients/infini/source/css/base/_fonts.scss",
-		"/Users/user/Dropbox/Web/Clients/infini/web-template.sketch/fonts",
+		"/Users/user/Dropbox/Web/Clients/infini/source/layouts/_scripts.haml",
+		"/Users/user/Dropbox/Web/Clients/infini/source/js/script.js",
+		"/Users/user/Dropbox/Web/Clients/infini/goreboiler.sublime-project",
 		"/Users/user/Dropbox/Web/Clients/infini/source/css/ui/_type.scss",
+		"/Users/user/Dropbox/Web/Clients/infini/source/css/ui/_type-fancyheading.sass",
+		"/Users/user/Dropbox/Web/Clients/infini/source/layouts/layout.haml",
+		"/Users/user/Dropbox/Web/Clients/infini/bower_components/foundation/docs/controller.rb",
+		"/Users/user/Dropbox/Web/Clients/infini/source/css/ui/_colors.scss",
+		"/Users/user/Dropbox/Web/Clients/infini/bower_components/foundation/docs/components/block-grid.html.erb",
+		"/Users/user/Dropbox/Web/Clients/infini/source/css/_settings.scss",
+		"/Users/user/Dropbox/Web/Clients/infini/Gemfile",
+		"/Users/user/Dropbox/Web/Clients/infini/infini.sublime-project",
+		"/Users/user/Dropbox/Web/Clients/infini/web-template.sketch/fonts",
 		"/Users/user/Dropbox/Web/clients/infini/source/css/ui/_type-fancyheading.sass",
 		"/Users/user/Dropbox/Web/Clients/infini/source/css/base/_breakpoints.scss",
 		"/Users/user/Dropbox/Web/clients/infini/source/css/mixins/_mixin-circle.scss",
-		"/Users/user/Dropbox/Web/Clients/infini/source/css/ui/_section--splash.sass",
 		"/Users/user/Dropbox/Web/Clients/infini/source/css/ui/_logo.sass",
-		"/Users/user/Dropbox/Web/Clients/infini/source/layouts/layout.haml",
 		"/Users/user/Dropbox/Web/Clients/infini/source/images/infini-logo-transparent.svg",
-		"/Users/user/Dropbox/Web/Clients/infini/source/css/ui/_colors.scss",
 		"/Users/user/Dropbox/Web/Clients/infini/source/css/ui/_index-splash.sass",
-		"/Users/user/Dropbox/Web/Clients/infini/bower_components/foundation/docs/components/block-grid.html.erb",
 		"/Users/user/Dropbox/Web/clients/infini/source/css/ui/_panel.sass",
 		"/Users/user/Dropbox/Web/clients/infini/source/css/animations/_animation-appear.sass",
-		"/Users/user/Dropbox/Web/Clients/infini/source/css/mixins/_animate-this.scss",
 		"/Users/user/Dropbox/Web/clients/infini/source/css/ui/_section-clients.sass",
 		"/Users/user/Dropbox/Web/Clients/infini/source/css/ui/_grid-section.sass",
 		"/Users/user/Dropbox/Web/Clients/infini/source/css/base/_foundation-modules.scss",
@@ -377,12 +361,10 @@
 		"/Users/user/Dropbox/Web/Clients/infini/bower_components/foundation/scss/foundation/components/_buttons.scss",
 		"/Users/user/Dropbox/Web/clients/infini/source/css/ui/_index-splash.sass",
 		"/Users/user/Dropbox/Web/Clients/infini/source/css/base/_grid.sass",
-		"/Users/user/Dropbox/Web/Clients/infini/source/css/ui/_is.scss",
 		"/Users/user/Dropbox/Web/clients/infini/source/css/ui/_grid-section.scss",
 		"/Users/user/Dropbox/Web/Clients/infini/source/kitchen.html.haml",
 		"/Users/user/Dropbox/Web/Clients/infini/bower_components/foundation/docs/components/type.html.erb",
 		"/Users/user/Dropbox/Web/Clients/infini/source/layouts/kitchensink.haml",
-		"/Users/user/Dropbox/Web/Clients/infini/source/js/script.js",
 		"/Users/user/Dropbox/Web/Clients/whiteboard/source/css/ui/_is.scss",
 		"/Users/user/Dropbox/Web/Clients/whiteboard/Gemfile",
 		"/Users/user/Dropbox/Web/Clients/whiteboard/config.rb",
@@ -468,13 +450,7 @@
 		"/Users/user/Dropbox/Web/Clients/whiteboard/source/handy/2013-08-08-preposition.md",
 		"/Users/user/Dropbox/Web/Clients/whiteboard/source/css/watch",
 		"/Users/user/Dropbox/Web/Clients/whiteboard/source/js/handy/untitled",
-		"/Users/user/Dropbox/Web/Clients/learnnow/vendor/bundle/ruby/2.0.0/bundler/gems/middleman-blog-322f3e303c76/lib/middleman-blog/template/source/layout.erb",
-		"/Users/user/Dropbox/Web/Clients/learnnow/vendor/bundle/ruby/2.0.0/bundler/gems/middleman-blog-322f3e303c76/middleman-blog.gemspec",
-		"/Users/user/Dropbox/Web/Clients/learnnow/Gemfile",
-		"/Users/user/Dropbox/Web/Clients/learnnow/source/index.html.haml",
-		"/Users/user/Dropbox/Web/clients/learnnow/source/lab.html.haml",
-		"/Users/user/Dropbox/Web/Clients/learnnow/config.rb",
-		"/Users/user/Dropbox/Web/Clients/learnnow/source/css/ui/_colors.scss"
+		"/Users/user/Dropbox/Web/Clients/learnnow/vendor/bundle/ruby/2.0.0/bundler/gems/middleman-blog-322f3e303c76/lib/middleman-blog/template/source/layout.erb"
 	],
 	"find":
 	{
@@ -492,6 +468,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"end",
+			"-verb",
+			"h2",
 			";",
 			"12r",
 			"2r",
@@ -616,10 +595,7 @@
 			"Grid-cell",
 			".Grid-cell",
 			"Grid--",
-			"Grid",
-			"grid",
-			"Grid",
-			"h3 "
+			"Grid"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -638,200 +614,13 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/user/Dropbox/Web/Clients/infini/source/js/script.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 129,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								129,
-								129
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/user/Dropbox/Web/Clients/infini/source/css/_settings.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31350,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								574,
-								574
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 2,
-					"file": "/Users/user/Dropbox/Web/Clients/infini/source/css/style.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 793,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								774,
-								103
-							]
-						],
-						"settings":
-						{
-							"codeintel": true,
-							"codeintel_config":
-							{
-								"JavaScript":
-								{
-									"codeintel_max_recursive_dir_depth": 2,
-									"codeintel_scan_files_in_project": false,
-									"javascriptExtraPaths":
-									[
-									]
-								},
-								"PHP":
-								{
-									"codeintel_max_recursive_dir_depth": 5,
-									"codeintel_scan_files_in_project": false,
-									"phpExtraPaths":
-									[
-									]
-								},
-								"Python":
-								{
-									"env":
-									{
-									}
-								}
-							},
-							"codeintel_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_live": true,
-							"codeintel_live_enabled_languages":
-							[
-								"JavaScript",
-								"Mason",
-								"XBL",
-								"XUL",
-								"RHTML",
-								"SCSS",
-								"Python",
-								"HTML",
-								"Ruby",
-								"Python3",
-								"XML",
-								"Sass",
-								"XSLT",
-								"Django",
-								"HTML5",
-								"Perl",
-								"CSS",
-								"Twig",
-								"Less",
-								"Smarty",
-								"Node.js",
-								"Tcl",
-								"TemplateToolkit",
-								"PHP"
-							],
-							"codeintel_max_recursive_dir_depth": 10,
-							"codeintel_scan_exclude_dir":
-							{
-								"JavaScript":
-								[
-									"/build/",
-									"/min/"
-								]
-							},
-							"codeintel_scan_files_in_project": true,
-							"codeintel_selected_catalogs":
-							[
-								"PyWin32",
-								"jQuery",
-								"Rails"
-							],
-							"codeintel_snippets": true,
-							"codeintel_syntax_map":
-							{
-								"Python Django": "Python"
-							},
-							"codeintel_tooltips": "popup",
-							"sublime_auto_complete": true,
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -885,6 +674,74 @@
 		"selected_items":
 		[
 			[
+				"is",
+				"source/css/ui/_is.scss"
+			],
+			[
+				"splash",
+				"source/css/ui/_section--splash.sass"
+			],
+			[
+				"mixin",
+				"source/css/mixins/_animate-this.scss"
+			],
+			[
+				"style",
+				"source/css/style.sass"
+			],
+			[
+				"font",
+				"source/css/base/_fonts.scss"
+			],
+			[
+				"inde",
+				"source/index.html.haml"
+			],
+			[
+				"clien",
+				"source/css/ui/_section--clients.sass"
+			],
+			[
+				"clients",
+				"source/css/ui/_section--clients.sass"
+			],
+			[
+				"conf",
+				"config.rb"
+			],
+			[
+				"scri",
+				"source/layouts/_scripts.haml"
+			],
+			[
+				"",
+				"goreboiler.sublime-project"
+			],
+			[
+				"type",
+				"source/css/ui/_type.scss"
+			],
+			[
+				"fanc",
+				"source/css/ui/_type-fancyheading.sass"
+			],
+			[
+				"layou",
+				"source/layouts/layout.haml"
+			],
+			[
+				"section-",
+				"source/css/ui/_section--splash.sass"
+			],
+			[
+				"client",
+				"source/css/ui/_section--clients.sass"
+			],
+			[
+				"color",
+				"bower_components/foundation/docs/controller.rb"
+			],
+			[
 				"sett",
 				"source/css/_settings.scss"
 			],
@@ -897,56 +754,16 @@
 				"Gemfile"
 			],
 			[
-				"",
-				"infini.sublime-project"
-			],
-			[
-				"style",
-				"source/css/style.sass"
-			],
-			[
-				"clients",
-				"source/css/ui/_section--clients.sass"
-			],
-			[
-				"inde",
-				"source/index.html.haml"
-			],
-			[
 				"fancy",
 				"source/css/ui/_type-fancyheading.sass"
-			],
-			[
-				"conf",
-				"config.rb"
-			],
-			[
-				"font",
-				"source/css/base/_fonts.scss"
 			],
 			[
 				"styl",
 				"source/css/style.sass"
 			],
 			[
-				"fanc",
-				"source/css/ui/_type-fancyheading.sass"
-			],
-			[
-				"type",
-				"source/css/ui/_type.scss"
-			],
-			[
-				"client",
-				"source/css/ui/_section--clients.sass"
-			],
-			[
 				"break",
 				"source/css/base/_breakpoints.scss"
-			],
-			[
-				"clien",
-				"source/css/ui/_section--clients.sass"
 			],
 			[
 				"sy",
@@ -977,10 +794,6 @@
 				"source/layouts/layout.haml"
 			],
 			[
-				"color",
-				"source/css/ui/_colors.scss"
-			],
-			[
 				"layout",
 				"source/layouts/layout.haml"
 			],
@@ -1005,10 +818,6 @@
 				"source/css/base/_grid.sass"
 			],
 			[
-				"is",
-				"source/css/ui/_is.scss"
-			],
-			[
 				"in",
 				"source/index.html.haml"
 			],
@@ -1027,10 +836,6 @@
 			[
 				"kitch",
 				"source/layouts/kitchensink.haml"
-			],
-			[
-				"scri",
-				"source/js/script.js"
 			],
 			[
 				"kitche",
@@ -1081,16 +886,8 @@
 				"source/css/plugins/_breakpoint-trafficlight.scss"
 			],
 			[
-				"splash",
-				"source/css/ui/_splash.sass"
-			],
-			[
 				"splas",
 				"source/splash.html.haml"
-			],
-			[
-				"mixin",
-				"source/css/base/_mixins.scss"
 			],
 			[
 				"mixins",
@@ -1337,10 +1134,6 @@
 				"source/layouts/_nav-secondary.haml"
 			],
 			[
-				"layou",
-				"source/layouts/layout.haml"
-			],
-			[
 				"block",
 				"source/css/ui/_blocks.sass"
 			],
@@ -1391,10 +1184,6 @@
 			[
 				"cofig",
 				"config.rb"
-			],
-			[
-				"project",
-				"source/layouts/project.haml"
 			]
 		],
 		"width": 0.0
@@ -1465,7 +1254,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 255.0,
 	"status_bar_visible": true,
 	"template_settings":
